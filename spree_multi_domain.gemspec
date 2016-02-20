@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  version = '~> 3.0.0'
+  version = '~> 3.1.0.beta'
   s.add_dependency 'spree_core', version
   s.add_dependency 'spree_backend', version
   s.add_dependency 'spree_frontend', version
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mysql2'
   s.add_development_dependency 'pg'
   s.add_development_dependency 'rspec-rails',  '~> 2.7'
-  s.add_development_dependency 'sass-rails', '~> 4.0.2'
+  s.add_development_dependency 'sass-rails', '~> 4.0.1'
   s.add_development_dependency 'spree_multi_currency'
   s.add_development_dependency 'sqlite3'
 end
